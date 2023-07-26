@@ -16,12 +16,12 @@ jobs:
         uses: ./
         with:
           NOTION_KEY: ${{ secrets.NOTION_KEY }}
-          NOTION_DB_BACKLOG: 858812a670ea4cb88ccaff94290d2f40
-          NOTION_DB_SPRINT_SUMMARY: 78eb653decce4193a0f029173a7c6292
-          NOTION_DB_DAILY_SUMMARY: f1a29002fe204c00a7713f74ea25cef5
+          NOTION_DB_BACKLOG: cfb9ab14c2894c918d94fa930bba4f7f
+          NOTION_DB_SPRINT_SUMMARY: 2344e3338df7408abc8dd96c26bebc23
+          NOTION_DB_DAILY_SUMMARY: 18f76a754ec544498f89d180204bf09d
           NOTION_PROPERTY_SPRINT: Sprint
           NOTION_PROPERTY_ESTIMATE: Estimate
-          NOTION_PROPERTY_PATTERN_STATUS_EXCLUDE: Completed|Released
+          NOTION_PROPERTY_PATTERN_STATUS_EXCLUDE: Done
           SPRINT_START: true
       - name: Commit burndown chart
         continue-on-error: true # not every run is at sprint start, so there may not be a chart
