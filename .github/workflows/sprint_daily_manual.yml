@@ -16,7 +16,7 @@ jobs:
         uses: ./
         with:
           NOTION_KEY: ${{ secrets.NOTION_KEY }}
-          NOTION_DB_BACKLOG: cfb9ab14c2894c918d94fa930bba4f7f
+          NOTION_DB_BACKLOG: e2244671e4b048568812f39cb99db3fc
           NOTION_DB_SPRINT_SUMMARY: 2344e3338df7408abc8dd96c26bebc23
           NOTION_DB_DAILY_SUMMARY: 18f76a754ec544498f89d180204bf09d
           NOTION_PROPERTY_SPRINT: Sprint
